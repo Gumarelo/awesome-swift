@@ -11,3 +11,7 @@ Name | License | Demo
 --- | --- | ---
 [Reachability](https://github.com/ashleymills/Reachability.swift) |  |  <img src="/arts/Reachability.png" width="40%"> <img src="/arts/Reachability2.png" width="40%">
 
+## Want to help?
+
+Got a bug fix, or a new feature? Create a pull request and go for it!
+
