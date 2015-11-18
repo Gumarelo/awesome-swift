@@ -12,6 +12,7 @@ class ResourcesTableViewController: UITableViewController {
     
     // MARK: properties
     var resources = [Resources]()
+    var identifier: String?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +25,10 @@ class ResourcesTableViewController: UITableViewController {
         let resources1 = Resources(name: "Reachability", explanation: "Replacement for Apple's Reachability re-written in Swift with closures", rating: 5)!
 
         resources += [resources1]
+        
+        let resources2 = Resources(name: "Splitflap", explanation: "A simple split-flap display for your Swift applications", rating: 5)!
+        
+        resources += [resources2]
     }
 
     override func didReceiveMemoryWarning() {
@@ -96,16 +101,30 @@ class ResourcesTableViewController: UITableViewController {
     // MARK: - Navigation
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+         print("You selected cell #\(segue.identifier)!")
+        
         /*if segue.identifier == "ReachabilitySegue" {
-            let resourceDetailViewController = segue.destinationViewController as! ReachabilityViewController
-            
-            //Get the cell that generated this segue
-            if let selectedResourcesCell = sender as? AwesomeTableViewCell {
-                let indexPath = tableView.indexPathForCell(selectedResourcesCell)!
-                let selectedResource = resources[indexPath.row]
-                //resourceDetailViewController.resource = selectedResource
-            }
+            print("Reach")
+            self.identifier = "ReachabilitySegue"
+        } else if segue.identifier == "SplitflapSegue" {
+            print("Spit")
+            self.identifier = "SplitflapSegue"
         }*/
+    }
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        let go = resources[indexPath.row].name
+        
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+        
+        if go == "Reachability" {
+            performSegueWithIdentifier("ReachabilitySegue", sender: self)
+        } else if go == "Splitflap" {
+            performSegueWithIdentifier("SplitflapSegue", sender: self)
+        }
+        
+
+        
     }
     
 

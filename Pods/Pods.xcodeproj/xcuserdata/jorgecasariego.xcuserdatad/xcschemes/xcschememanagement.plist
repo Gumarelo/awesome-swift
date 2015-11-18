@@ -14,15 +14,25 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Splitflap.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2A5526524B9BB9079EF833D2F63ED894</key>
+		<key>40A092BF8CA75FE6A0FE2C8542D1C321</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>32231770221EB11441BECD9D6ED0ACE7</key>
+		<key>B7549D98BE574B638A10234EFC657CF0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FC06845A685FFD88C534EEA91C76E265</key>
 		<dict>
 			<key>primary</key>
 			<true/>

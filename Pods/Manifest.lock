@@ -1,8 +1,10 @@
 PODS:
   - ReachabilitySwift (2.1)
+  - Splitflap (1.0.1)
 
 DEPENDENCIES:
   - ReachabilitySwift (from `https://github.com/ashleymills/Reachability.swift`)
+  - Splitflap (~> 1.0.1)
 
 EXTERNAL SOURCES:
   ReachabilitySwift:
@@ -15,5 +17,6 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   ReachabilitySwift: 99bb7acceebb90b2048b4a8fd6539be96454dcb2
+  Splitflap: 53759aafb935a6f8769a29a5bdc3a16d7776d3e8
 
 COCOAPODS: 0.39.0

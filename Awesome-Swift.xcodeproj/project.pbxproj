@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27AF9F7A1BF6233400E8E9C1 /* SplitflapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AF9F791BF6233400E8E9C1 /* SplitflapViewController.swift */; };
 		27E5ACFB1BEA38AD0057957F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E5ACFA1BEA38AD0057957F /* AppDelegate.swift */; };
 		27E5ACFD1BEA38AD0057957F /* ReachabilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E5ACFC1BEA38AD0057957F /* ReachabilityViewController.swift */; };
 		27E5AD001BEA38AD0057957F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E5ACFE1BEA38AD0057957F /* Main.storyboard */; };
@@ -42,6 +43,7 @@
 /* Begin PBXFileReference section */
 		0B493F6E80C957C28C28CCA8 /* Pods-Awesome-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Awesome-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Awesome-Swift/Pods-Awesome-Swift.release.xcconfig"; sourceTree = "<group>"; };
 		118E4B4A006D52E160FF4078 /* Pods-Awesome-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Awesome-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Awesome-Swift/Pods-Awesome-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		27AF9F791BF6233400E8E9C1 /* SplitflapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitflapViewController.swift; sourceTree = "<group>"; };
 		27E5ACF71BEA38AD0057957F /* Awesome-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Awesome-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E5ACFA1BEA38AD0057957F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27E5ACFC1BEA38AD0057957F /* ReachabilityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				27E5AD2D1BEA5BB30057957F /* RatingControl.swift */,
 				27E5AD2F1BEA84DE0057957F /* Resources.swift */,
 				27E5ACFC1BEA38AD0057957F /* ReachabilityViewController.swift */,
+				27AF9F791BF6233400E8E9C1 /* SplitflapViewController.swift */,
 				27E5ACFE1BEA38AD0057957F /* Main.storyboard */,
 				27E5AD041BEA38AD0057957F /* Assets.xcassets */,
 				27E5AD061BEA38AD0057957F /* LaunchScreen.storyboard */,
@@ -352,6 +355,7 @@
 				27E5AD321BEAA7AA0057957F /* ResourcesTableViewController.swift in Sources */,
 				27E5AD301BEA84DE0057957F /* Resources.swift in Sources */,
 				27E5AD2E1BEA5BB30057957F /* RatingControl.swift in Sources */,
+				27AF9F7A1BF6233400E8E9C1 /* SplitflapViewController.swift in Sources */,
 				27E5ACFB1BEA38AD0057957F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

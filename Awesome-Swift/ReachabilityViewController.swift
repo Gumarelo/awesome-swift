@@ -17,6 +17,8 @@ class ReachabilityViewController: UIViewController {
     
     var reachability: Reachability?
     
+    var delegate = UIApplication.sharedApplication().delegate as! AppDelegate
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
