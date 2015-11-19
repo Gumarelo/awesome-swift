@@ -11,6 +11,7 @@ Name | License | Demo
 --- | --- | ---
 [Reachability](https://github.com/ashleymills/Reachability.swift) |  |  <img src="/arts/Reachability.png" width="40%"> <img src="/arts/Reachability2.png" width="40%">
 [Splitflap](https://github.com/yannickl/Splitflap) |  |  <img src="/arts/Splitflap.png" width="40%">
+[PageMenu](https://github.com/uacaps/PageMenu) |  |  <img src="/arts/PageMenu.png" width="40%">
 
 
 ## Want to help?
