@@ -23,12 +23,14 @@ class ResourcesTableViewController: UITableViewController {
     
     func loadResources(){
         let resources1 = Resources(name: "Reachability", explanation: "Replacement for Apple's Reachability re-written in Swift with closures", rating: 5)!
-
-        resources += [resources1]
         
         let resources2 = Resources(name: "Splitflap", explanation: "A simple split-flap display for your Swift applications", rating: 5)!
         
-        resources += [resources2]
+        let resources3 = Resources(name: "PageMenu", explanation: "A paging menu controller built from other view controllers placed inside a scroll view (like Spotify, Windows Phone, Instagram)", rating: 5)!
+        
+        resources.append(resources1)
+        resources.append(resources2)
+        resources.append(resources3)
     }
 
     override func didReceiveMemoryWarning() {
@@ -121,6 +123,8 @@ class ResourcesTableViewController: UITableViewController {
             performSegueWithIdentifier("ReachabilitySegue", sender: self)
         } else if go == "Splitflap" {
             performSegueWithIdentifier("SplitflapSegue", sender: self)
+        } else if go == "PageMenu" {
+            performSegueWithIdentifier("PageMenuSegue", sender: self)
         }
         
 

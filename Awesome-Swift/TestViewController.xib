@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15C47a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TestViewController" customModule="Awesome_Swift" customModuleProvider="target">
+            <connections>
+                <outlet property="texLabel" destination="9nn-Rl-XPh" id="BYo-NC-izk"/>
+                <outlet property="view" destination="iN0-l3-epB" id="N9g-2K-SJP"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UIViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9nn-Rl-XPh">
+                    <rect key="frame" x="67" y="274" width="467" height="51"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="51" id="dsk-ga-fSc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="9nn-Rl-XPh" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="NSM-ib-EP2"/>
+                <constraint firstItem="9nn-Rl-XPh" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="gUp-jr-ilQ"/>
+                <constraint firstItem="9nn-Rl-XPh" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="67" id="wCr-0i-jbz"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
